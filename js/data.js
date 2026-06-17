@@ -274,6 +274,310 @@ const pages = {
         </div>
         `
     },
-    event3: { title: "이벤트 3", content: `<p>이벤트 설명 작성</p>` }
+    event3: { 
+        title: "챌린저스 육성 공략", 
+        content: `
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 40px; box-sizing: border-box; font-family: 'Malgun Gothic', sans-serif; color: #2c3e50;">
+            
+            <div style="margin-bottom: 35px; border-bottom: 2px solid #e2e8f0; padding-bottom: 20px;">
+                <h1 style="font-size: 32px; margin: 0; font-weight: 700; color: #1e293b;"> 챌린저스 월드 초고속 육성 및 정착 가이드</h1>
+                <p style="color: #64748b; font-size: 16px; margin-top: 8px;">이 공략을 그대로 따라오시면 손해 없이 빠르게 260 달성 및 이후 정착 틀을 완벽하게 잡을 수 있습니다.</p>
+            </div>
+
+            <div style="background: #fff5f5; padding: 30px; border-radius: 12px; border: 1px solid #fed7d7; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); margin-bottom: 35px;">
+                <h2 style="margin-top: 0; margin-bottom: 20px; font-size: 22px; color: #c53030; border-left: 4px solid #e53e3e; padding-left: 12px; font-weight: 700;">0. ⚠️ 육성에 앞서 '절대' 하지 말아야 할 행동 (필독)</h2>
+                
+                <ul style="margin: 0; padding-left: 20px; font-size: 15px; line-height: 1.8; color: #2d3748;">
+                    <li style="margin-bottom: 12px;">
+                        <b style="color: #e53e3e;">엠블렘에 유잠(유니크 잠재) 사용 절대 금지:</b> 신입 용병 미션 중 <span style="background:#fff; padding:2px 6px; border-radius:4px; font-weight:bold;">카오스 벨룸 처치 미션</span>을 깨면 유니크 엠블렘을 그냥 지급합니다.
+                    </li>
+                    <li style="margin-bottom: 12px;">
+                        <b style="color: #e53e3e;">첫 주차 울티마(출석) 코인 절대 아끼기 (이벤링 레잠용):</b> 주간 획득 코인은 4,000개인데 이벤링 레전 잠재 주문서가 딱 4,000코인입니다. 첫 주에 사실 분들은 코인을 다른 곳에 절대 쓰면 안 됩니다.
+                    </li>
+                    <li style="margin-bottom: 12px;">
+                        <b style="color: #e53e3e;">이터널 플레임 링에 레잠 지르지 않기:</b> 기본적으로 유니크 등급으로 지급받기 때문에, 레잠 주문서는 다른 이벤트 링에 양보하는 것이 훨씬 이득입니다.
+                    </li>
+                    <li style="margin-bottom: 12px;">
+                        <b style="color: #e53e3e;">모든 보스 미션은 '연습 모드' 활용:</b> 아이템 버닝 성장 및 챌린저스 보스 미션은 전부 <b>연습 모드로 클리어해도 인정</b>됩니다. 주간 처치 제한을 낭비하거나 리워드가 적은 보스를 포함시키지 않기 위해 연습 모드로 안전하게 깨세요.
+                    </li>
+                    <li style="margin-bottom: 12px;">
+                        <b style="color: #4a5568;">200 ~ 260 구간 경험치 쿠폰(경쿠) 아끼기:</b> 이 구간은 기본 추가 경험치 버프가 무려 <span style="color:#e53e3e; font-weight:bold;">+5,000%</span>입니다. 경쿠를 써봤자 합적용이라 5,200%가 되므로 효율이 좋지 않습니다. 경쿠가 넘치는 유저가 아니라면 260 이후 사냥을 위해 킵하세요.
+                    </li>
+                    <li style="margin-bottom: 0;">
+                        <b style="color: #4a5568;">브론즈 등급 시드링 3레벨 선택 팁:</b> 미래에 본인이 장착할 4레벨 시드링의 <b>반대 성향</b>으로 받으세요. (예: 추후 리레 4렙을 낄 예정이다 ➡️ 시드링 3렙은 컨티뉴어스로 수령)
+                    </li>
+                </ul>
+
+                <div style="margin-top: 20px; background: #fff; padding: 15px; border-radius: 8px; border: 1px dashed #feb2b2; font-size: 14px; color: #4a5568; line-height: 1.5;">
+                    💡 <b>소소한 팁:</b> '의문의 결계'는 <b>에메랄드 등급</b>을 찍기 전까지 인벤토리에 아껴두세요. 에메랄드 등급 달성 시 유니크 결계가 뜰 확률이 비약적으로 상승합니다. (단, 기다리기 너무 귀찮다면 그냥 까셔도 무방합니다.)
+                </div>
+            </div>
+
+            <!-- 30~200 테라블링크 준비 구간 (키워드/설정 분리 버전) -->
+                    <div style="background: #f8fafc; padding: 25px 30px; border-radius: 12px; border: 1px solid #e2e8f0; border-left: 6px solid #4a5568; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                        <span style="background: #4a5568; color: #fff; padding: 3px 10px; border-radius: 4px; font-size: 13px; font-weight: bold; letter-spacing: 0.5px;">기본 세팅 (필독)</span>
+                        <h3 style="margin: 12px 0 20px 0; font-size: 22px; color: #1e293b; font-weight: 800;">30 ~ 200 : 테라블링크 종료 후 본격 사냥 준비 체크리스트</h3>
+                        
+                        <!-- 가로 분할 리스트 스타일 -->
+                        <div style="display: flex; flex-direction: column; gap: 10px; font-family: sans-serif;">
+                            
+                            <!-- 1. 5차 전직 -->
+                            <div style="display: flex; align-items: center; background: #fff; border: 1px solid #edf2f7; border-radius: 8px; padding: 12px 20px; min-height: 45px;">
+                                <div style="width: 200px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0; display: flex; align-items: center;">
+                                    <span style="color: #64748b; margin-right: 10px; font-size: 14px;">01</span> 5차 전직하기
+                                </div>
+                                <div style="flex-grow: 1; font-size: 15px; color: #4a5568; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                                    화면 왼쪽 <span style="color: #dd6b20; font-weight: bold;">전구</span>를 누르고 전직 퀘스트를 진행합니다.
+                                </div>
+                            </div>
+
+                            <!-- 2. 이벤트 활성화 -->
+                            <div style="display: flex; align-items: center; background: #fff; border: 1px solid #edf2f7; border-radius: 8px; padding: 12px 20px; min-height: 45px;">
+                                <div style="width: 200px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0; display: flex; align-items: center;">
+                                    <span style="color: #64748b; margin-right: 10px; font-size: 14px;">02</span> 이벤트 활성화
+                                </div>
+                                <div style="flex-grow: 1; font-size: 15px; color: #4a5568; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                                    화면 왼쪽 <span style="color: #df9b00; font-weight: bold;">별</span>을 누르고 활성화할 수 있는 모든 이벤트를 켜고 보상을 수령합니다.
+                                </div>
+                            </div>
+
+                            <!-- 3. 코어 강화 -->
+                            <div style="display: flex; align-items: center; background: #fff; border: 1px solid #edf2f7; border-radius: 8px; padding: 12px 20px; min-height: 45px;">
+                                <div style="width: 200px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0; display: flex; align-items: center;">
+                                    <span style="color: #64748b; margin-right: 10px; font-size: 14px;">03</span> 코어 강화 (코강)
+                                </div>
+                                <div style="flex-grow: 1; font-size: 15px; color: #4a5568; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                                    이벤트 탭에서 수령한 젬스톤으로 사냥에 필수인 <span style="font-weight: bold; color: #2b6cb0;">'쓸만한 홀리 심볼'</span> 등만 간략하게 강화해 줍니다.
+                                </div>
+                            </div>
+
+                            <!-- 4. 아버, 보장 착용 -->
+                            <div style="display: flex; align-items: center; background: #fff; border: 1px solid #edf2f7; border-radius: 8px; padding: 12px 20px; min-height: 45px;">
+                                <div style="width: 200px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0; display: flex; align-items: center;">
+                                    <span style="color: #64748b; margin-right: 10px; font-size: 14px;">04</span> 아버,보장 착용
+                                </div>
+                                <div style="flex-grow: 1; font-size: 15px; color: #4a5568; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                                    아이템 버닝 장비, 보스 장신구, <span style="color: #e53e3e; font-weight: bold;">이터널 플레임 링</span>을 착용합니다. (⚠️ 이터널 링은 아직 강화 금지)
+                                </div>
+                            </div>
+
+                            <!-- 5. 하이퍼스탯 -->
+                            <div style="display: flex; align-items: center; background: #fff; border: 1px solid #edf2f7; border-radius: 8px; padding: 12px 20px; min-height: 45px;">
+                                <div style="width: 200px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0; display: flex; align-items: center;">
+                                    <span style="color: #64748b; margin-right: 10px; font-size: 14px;">05</span> 하이퍼스탯 설정
+                                </div>
+                                <div style="flex-grow: 1; font-size: 15px; color: #4a5568; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                                    <b>캐릭터 정보창(단축키)의 왼쪽 아래</b> 버튼을 눌러 데미지 및 경험치 위주로 알맞게 스탯을 배분합니다.
+                                </div>
+                            </div>
+
+                            <!-- 6. 정령의 펜던트 -->
+                            <div style="display: flex; align-items: center; background: #fff; border: 1px solid #edf2f7; border-radius: 8px; padding: 12px 20px; min-height: 45px;">
+                                <div style="width: 200px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0; display: flex; align-items: center;">
+                                    <span style="color: #64748b; margin-right: 10px; font-size: 14px;">06</span> 정령의 펜던트 수령
+                                </div>
+                                <div style="flex-grow: 1; font-size: 15px; color: #4a5568; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                                    추가 경험치 획득을 위해 <span style="color: #2f855a; font-weight: bold;">울티마 출석 보급일지 1일차</span> 보상에서 정펜을 수령하여 장착합니다.
+                                </div>
+                            </div>
+
+                            <!-- 7. 쑥쑥 새싹 받기 -->
+                            <div style="display: flex; align-items: center; background: #fff; border: 1px solid #edf2f7; border-radius: 8px; padding: 12px 20px; min-height: 45px;">
+                                <div style="width: 200px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0; display: flex; align-items: center;">
+                                    <span style="color: #64748b; margin-right: 10px; font-size: 14px;">07</span> 쑥쑥 새싹
+                                </div>
+                                <div style="flex-grow: 1; font-size: 15px; color: #4a5568; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                                    <b>길라잡이 탭</b>을 열어 30레벨 달성 보상 항목에 있는 육성 지원용 '쑥쑥 새싹' 버프를 활성화합니다.
+                                </div>
+                            </div>
+
+                            <!-- 8. 세팅 설정 -->
+                            <div style="display: flex; align-items: center; background: #fff; border: 1px solid #edf2f7; border-radius: 8px; padding: 12px 20px; min-height: 45px;">
+                                <div style="width: 200px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0; display: flex; align-items: center;">
+                                    <span style="color: #64748b; margin-right: 10px; font-size: 14px;">08</span> 프리셋 및 스케줄러
+                                </div>
+                                <div style="flex-grow: 1; font-size: 15px; color: #4a5568; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                                    키세팅 및 사냥 세팅을 마치고, <span style="font-weight: bold;">ESC 메뉴</span>를 통해 사냥 프리셋 등록 및 효율적인 동선을 위해 스케줄러를 설정해 둡니다.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                   <!-- 200~260 사냥터 및 부스터 사용 표 (은은한 색상 가독성 보완 버전) -->
+                    <div style="border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; font-family: sans-serif; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                        <table style="width: 100%; border-collapse: collapse; font-size: 16px; text-align: left; background: #ffffff;">
+                            
+                            <!-- 테이블 헤더 (신뢰감을 주는 차분한 톤) -->
+                            <thead style="background: #f1f5f9; color: #334155; border-bottom: 2px solid #cbd5e1;">
+                                <tr>
+                                    <th style="padding: 15px 20px; width: 130px; text-align: center;">레벨 구간</th>
+                                    <th style="padding: 15px 20px;">필수 행동</th>
+                                    <th style="padding: 15px 20px; width: 160px; text-align: center;">VIP 부스터 개수</th>
+                                    <th style="padding: 15px 20px; width: 280px;">추천 사냥터</th>
+                                </tr>
+                            </thead>
+                            
+                            <!-- 테이블 본문 -->
+                            <tbody style="color: #334155; line-height: 1.6;">
+                                
+                                <!-- 200 ~ 220 -->
+                                <tr style="border-bottom: 1px solid #e2e8f0;">
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold; background: #f8fafc; color: #1e3a8a;">200 ~ 220</td>
+                                    <td style="padding: 15px 20px;">소멸의 여로 일일 퀘스트 진행</td>
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold;">1개</td>
+                                    <td style="padding: 15px 20px;">숨겨진 호숫가</td>
+                                </tr>
+                                
+                                <!-- 220 ~ 225 -->
+                                <tr style="border-bottom: 1px solid #e2e8f0; background: #fdfdfd;">
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold; background: #f8fafc; color: #1e3a8a;">220 ~ 225</td>
+                                    <td style="padding: 15px 20px;">츄츄 아일랜드 일퀘 + 하이퍼버닝 보상 수령</td>
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold;">1개</td>
+                                    <td style="padding: 15px 20px; color: #64748b;">아무 지형이나 편한 곳</td>
+                                </tr>
+                                
+                                <!-- 225 ~ 230 -->
+                                <tr style="border-bottom: 1px solid #e2e8f0;">
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold; background: #f8fafc; color: #1e3a8a;">225 ~ 230</td>
+                                    <td style="padding: 15px 20px;">레헬른 일일 퀘스트 + 하이버버닝 보상 수령</td>
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold;">1개</td>
+                                    <td style="padding: 15px 20px; color: #64748b;">아무 지형이나 편한 곳</td>
+                                </tr>
+                                
+                                <!-- 230 ~ 240 -->
+                                <tr style="border-bottom: 1px solid #e2e8f0; background: #fdfdfd;">
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold; background: #f8fafc; color: #1e3a8a;">230 ~ 240</td>
+                                    <td style="padding: 15px 20px;">모라스/아르카나 일퀘 + 하버 보상 수령</td>
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold;">1개 <span style="font-size: 14px; font-weight: normal; color: #64748b;">(+ 약간의 사냥)</span></td>
+                                    <td style="padding: 15px 20px;">그날의 트뤼에페 2, 그림자가 춤추는 곳 2, 3</td>
+                                </tr>
+                                
+                                <!-- 240 ~ 255 -->
+                                <tr style="border-bottom: 1px solid #e2e8f0;">
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold; background: #f8fafc; color: #1e3a8a;">240 ~ 255</td>
+                                    <td style="padding: 15px 20px;">셀라스/에스페라 일퀘 + 하버 보상 수령</td>
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold;">5개</td>
+                                    <td style="padding: 15px 20px;">별이 삼켜진 심해 3, 6</td>
+                                </tr>
+                                
+                                <!-- 255 ~ 260 -->
+                                <tr>
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold; background: #f8fafc; color: #1e3a8a;">255 ~ 260</td>
+                                    <td style="padding: 15px 20px;">문브릿지/미궁 일퀘 + <b>신입 용병 보상에서 vip부스터 수령</b></td>
+                                    <td style="padding: 15px 20px; text-align: center; font-weight: bold;">2 ~ 3개</td>
+                                    <td style="padding: 15px 20px;">미궁 중심부 또는 리멘</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 🎯 [PART 2] 260 달성 이후, 그래서 이제 뭐함? -->
+            <div style="background: #ffffff; padding: 25px 30px; border-radius: 12px; border: 1px solid #cbd5e1; box-shadow: 0 2px 4px rgba(0,0,0,0.02); margin-top: 35px;">
+                <h2 style="margin-top: 0; margin-bottom: 25px; font-size: 22px; color: #1e293b; font-weight: 800; border-bottom: 2px solid #cbd5e1; padding-bottom: 15px;">2. 260 달성 이후, 그래서 이제 뭐함? </h2>
+                
+                <!-- 가로 분할 리스트 구조 -->
+                <div style="display: flex; flex-direction: column; gap: 10px; font-family: sans-serif;">
+                    
+                    <!-- 1. 6차 전직 및 야누스 -->
+                    <div style="display: flex; align-items: center; background: #ffffff; border: 1px solid #edf2f7; border-radius: 8px; padding: 15px 20px; min-height: 50px;">
+                        <div style="width: 250px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0;">
+                            6차 전직 및 야누스 수령
+                        </div>
+                        <div style="flex-grow: 1; font-size: 16px; color: #334155; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                            6차 전직을 완료하고, 이벤트 탭에서 솔 야누스 스킬 지원 클릭,<b>야누스 30렙</b> 보상을 수령합니다.
+                        </div>
+                    </div>
+
+                    <!-- 2. 울티마 1주차 코인샵 -->
+                    <div style="display: flex; align-items: center; background: #ffffff; border: 1px solid #edf2f7; border-radius: 8px; padding: 15px 20px; min-height: 50px;">
+                        <div style="width: 250px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0;">
+                            울티마 코인 1주차 사용법
+                        </div>
+                        <div style="flex-grow: 1; font-size: 16px; color: #334155; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                            • <b>엠블렘이 없어요:</b> 신입 용병 지원 미션 ➡️ 카벨 처치 미션에서 유니크 엠블렘 획득 ➡️ 에디 에픽 잠재 구매 ➡️ 유니크 엠블렘에 사용<br>
+                            • <b>엠블렘 구매했어요:</b> 이벤링 레전 잠재 구매 ➡️ 유니크 등급이 아닌 이벤트 링에 사용
+                        </div>
+                    </div>
+
+                    <!-- 3. 이벤트 링 스펙업 -->
+                    <div style="display: flex; align-items: center; background: #ffffff; border: 1px solid #edf2f7; border-radius: 8px; padding: 15px 20px; min-height: 50px;">
+                        <div style="width: 250px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0;">
+                            이벤트 링 큐브/에디 설정
+                        </div>
+                        <div style="flex-grow: 1; font-size: 16px; color: #334155; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                            용병 미션 - 250렙 보상에 <b>이벤링 레잠 + 골드큐브 50개</b>를 사용하여 <b>드랍링</b> 또는 <b>스탯 18% 이상</b> 세팅<br>
+                            (챌섭 코인으로 에디잠재문서 및 브론즈 에디큐브를 구매하여 이벤링에 <b>공/마 +10</b> 적용)
+                        </div>
+                    </div>
+
+                    <!-- 4. 어빌리티 설정 -->
+                    <div style="display: flex; align-items: center; background: #ffffff; border: 1px solid #edf2f7; border-radius: 8px; padding: 15px 20px; min-height: 50px;">
+                        <div style="width: 250px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0;">
+                            어빌리티 레전드리 등업
+                        </div>
+                        <div style="flex-grow: 1; font-size: 16px; color: #334155; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                            레전 등업 및 옵션을 저격합니다. <b>하이퍼버닝 MAX 보상 미라클 서큘레이터</b> 를 활용
+                        </div>
+                    </div>
+
+                    <!-- 5. 울티마 훈련 일지 및 보스 준비 -->
+                    <div style="display: flex; align-items: center; background: #ffffff; border: 1px solid #edf2f7; border-radius: 8px; padding: 15px 20px; min-height: 50px;">
+                        <div style="width: 250px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0;">
+                            보스 갈 준비<br>
+                             •보약 버프<br>
+                             •세이람 퀘<br>
+                             •보장 검환불
+                        </div>
+                        <div style="flex-grow: 1; font-size: 16px; color: #334155; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                            • 보약 버프는 <b>보공 및 몬파</b> 위주로 먼저 투자<br>
+                            • 왼쪽 전구의 <b>'콜렉터의 의뢰'</b> 선행 퀘스트를 클리어하여 세이람 상점 활성화<br>
+                            • 보스 장신구들은 검환불을 사용해 기본 베이스 스펙인 <b>60 ~ 70급</b> 수준으로 세팅
+                        </div>
+                    </div>
+
+                    <!-- 6. 솔 에르다 조각 강화 -->
+                    <div style="display: flex; align-items: center; background: #ffffff; border: 1px solid #edf2f7; border-radius: 8px; padding: 15px 20px; min-height: 50px;">
+                        <div style="width: 250px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0;">
+                            솔 에르다 조각 강화
+                        </div>
+                        <div style="flex-grow: 1; font-size: 16px; color: #334155; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                            <b>썸머 카운트 보상, 신입 용병 미션, 챌린저스 패스</b>조각 수령, 본인의 <b>환산 주스탯 효율표</b>를 기준 삼아 강화합니다.
+                        </div>
+                    </div>
+
+                    <!-- 7. 시드링 수급 -->
+                    <div style="display: flex; align-items: center; background: #ffffff; border: 1px solid #edf2f7; border-radius: 8px; padding: 15px 20px; min-height: 50px;">
+                        <div style="width: 250px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0;">
+                            시드링 3레벨 획득
+                        </div>
+                        <div style="flex-grow: 1; font-size: 16px; color: #334155; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                            <b>노말 스우, 노말 데미안 및 이하 주간 보스</b>들을 <span style="color: #e53e3e; font-weight: bold;">연습 모드</span> 로 클리어하여 챌린저스 브론즈 등급을 달성하고 수령합니다.
+                        </div>
+                    </div>
+
+                    <!-- 8. 유잠 / 에디에픽 획득 -->
+                    <div style="display: flex; align-items: center; background: #ffffff; border: 1px solid #edf2f7; border-radius: 8px; padding: 15px 20px; min-height: 50px;">
+                        <div style="width: 250px; font-size: 17px; font-weight: bold; color: #1e293b; flex-shrink: 0;">
+                            카르마 유잠 & 에디에픽 수급
+                        </div>
+                        <div style="flex-grow: 1; font-size: 16px; color: #334155; border-left: 2px solid #e2e8f0; padding-left: 20px;">
+                            <b>이지 루시드 격파</b> 후 <b>신입 용병</b> 미션 탭에서 수령합니다. (교불 보조무기에 우선 사용하고, 보조가 이미 있다면 페어리 하트에 투자)
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 최종 요약 바 -->
+                <div style="margin-top: 25px; background: #f1f5f9; padding: 18px; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 16px; font-weight: bold; color: #334155; text-align: center;">
+                    
+                </div>
+            </div>
+        `
+    }
 };
 
